@@ -1,0 +1,83 @@
+
+body {
+    margin:0;
+    background-color: lightgrey;}
+
+.header {
+    background-color: white;
+    margin:0 auto;
+    width: 100%;}
+
+h1{
+    background-color: white;
+    margin:0 auto;
+    width:40%;
+}
+
+.wrapper{
+    background-color: lightgrey;
+    margin:0;
+    width: 100%;}
+
+.box {
+    width:40%;
+    background-color: white;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display:block;
+}
+
+.pic-header {
+    height: 10%;
+    margin-top: 10px;
+    padding: 5px;
+    box-sizing:border-box;
+    border-bottom: 1px solid rgba(211, 211, 211, 0.74);
+}
+
+.title{
+    float:left;
+    font-size: larger;
+}
+
+.date{
+    float:right;
+    color: rgba(190, 190, 190, 0.872);
+}
+
+.picture{
+    height:70%;
+}
+.caption {
+    margin-top: 20px;
+    box-sizing: border-box;
+    height:20%;
+}
+img {
+    height:100%;
+    Width: 100%;
+    object-fit: cover;
+}
+
+.box2 {
+    width:40%;
+    background-color: white;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 20px;
+    display:block;
+}
+.picture2{
+    height:80%;
+}
+.caption2 {
+    margin-top: 20px;
+    box-sizing: border-box;
+    height:10%;
+}
+#tacos {
+    height:100%;
+    Width: 100%;
+    object-fit: contain;
+}
